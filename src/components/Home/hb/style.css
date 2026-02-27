@@ -1,0 +1,72 @@
+.tl .items{
+    padding: 30px;
+    transition: 0.5s;
+
+}
+.tl .img{
+    position: relative;
+    
+}
+
+.shadow{
+  box-shadow: 0 5px 25px -2px rgba(0 0 0/6%);
+  border-color: #fff;
+}
+
+
+.tl img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.tl i{
+position: absolute;
+bottom: 0;
+left: 60px;
+background-color: #1eb2a6;
+color: #fff;
+}
+/* .tl .name {
+    margin: 25px;
+} */
+.tl .name h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+.tl .name span{
+    color: #1eb2a6;
+     margin-left: 150px;
+}
+.tl p{
+    margin-top: 20px;
+    color: gray;
+    transition: 0.5s;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.tl .items:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+.tl .items:hover p, .tl .items:hover span, .tl .items:hover h2{
+    color: #fff;
+}
+.tl .items:hover i{
+    background-color: #fff;
+    color: #1eb2a6;
+
+}
+@media screen and (max-width:768px){
+
+.tl .grid2{
+display: flex;
+flex-direction: column
+}
+}

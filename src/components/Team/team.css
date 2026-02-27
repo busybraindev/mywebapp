@@ -1,0 +1,53 @@
+.tm .items{
+    transition: 0.5s;
+
+}
+.tm .img{
+    position: relative;
+}
+.tm img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s;
+    opacity: 0;
+    top: 2px;
+}
+.overlay i{
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
+.tm .details{
+    padding: 30px;
+    text-align: center;
+}
+.tm .details h2{
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.tm .details p{
+color: gray;
+transition: 0.15s;
+margin-top: 10px;
+font-size: 15px;
+}
+.tm .items:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+.tm .items:hover p{
+    color: #fff;
+}
+.tm .items:hover .overlay{
+    opacity: 1;
+}

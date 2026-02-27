@@ -1,0 +1,168 @@
+.ab{
+    height: auto;
+}
+.ab #heading{
+    text-align: left;
+    padding: 0;
+}
+#heading h3{
+    margin-left: 25px;
+}
+.ab .left img{
+    width: 500px;
+    object-fit: cover;
+    margin-top: 200px;
+  
+}
+
+.ab .right{
+    padding:  80px 50px;
+   
+}
+.ab .items{
+    margin-top: 50px;
+}
+.ab .item{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+   
+}
+.ab .img{
+    width: 200px;
+}
+/* .ab img{
+    width: 70px;
+    height: 70px;
+} */
+.ab .item h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.ab .item:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
+}
+.text{
+    padding-left: 20px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  
+}
+
+.aw{
+    background-image: url("../.././images/pc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+    width: 100%;
+}
+.aw .box{
+  
+    padding: 70px 0;
+  
+}
+.aw img{
+    margin-right: 30px;
+  
+}
+.aw h1{
+    font-size: 12px;
+     color: #fff;
+}
+.aw h3{
+    font-size: 12px;
+    font-weight: 500;
+       color: #fff;
+    
+}
+.aw .im{
+    background-color: white;
+    width: 60px;
+    color: white;
+    border: 2px solid white;
+    
+}
+.aw .vb{
+    margin-top: -50px;
+    margin-left: 150px;
+}
+@media screen and (max-width: 768px) {
+    .ab{
+        margin-top: 260px;
+    }
+    .ab .container{
+    flex-direction: column-reverse;
+}
+.ab .row{
+    width: 100%;
+    
+}
+.aw{
+    height: 150vh;
+
+}
+.ab .left img{
+   
+    width: 100%;
+   padding-bottom: 30px;
+   
+}
+.grid{
+  display: flex;
+  flex-direction: column;
+}
+.aw .vb h1,.aw .vb h3 {
+    font-size:24px;
+    /* color: red */
+}
+
+    
+}
+@media screen and (max-width: 400px) {
+     .ab{
+        margin-top: 500px;
+    }
+    .ab #heading h1{
+        font-size: 20px;
+    }
+    .ab .item{
+        width: 300px;
+        margin: 0;
+     
+    }
+    .aw{
+    height: 70vh;
+}
+    .ab .text h2{
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .ab .text p{
+   font-size: 22px;
+   font-weight: 500;
+    }
+    /* .aw{
+        width: 500px;
+        height: 100%;
+        
+    } */
+    .grid{
+        gap: 5px;
+    }
+   .aw .box{
+    padding: 12px;
+    /* background-color: red; */
+    }
+    .aw .vb{
+        margin-left: 55px;
+    }
+}
