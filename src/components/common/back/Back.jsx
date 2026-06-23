@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 const Back = ({ title }) => {
   const loc = useLocation();
   return (
-    <div>
+    <div className="mt">
       <section className="back">
         <h2>Home /{loc.pathname.split("/")[1]}</h2>
         <h1>{title}</h1>

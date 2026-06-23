@@ -8,11 +8,11 @@ const Aw = () => {
         <div className="container grid">
           {Awp.map((val) => {
             return (
-              <div className="box flex">
+              <div className="box">
                 <div className="img">
                   <img className="im" src={val.cover}></img>
                 </div>
-                <div className="text vb">
+                <div className="text">
                   <h1>{val.data}</h1>
                   <h3>{val.title}</h3>
                 </div>

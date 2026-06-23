@@ -68,7 +68,8 @@
 .aw .box{
   
     padding: 70px 0;
-  
+    display: flex;
+  flex-direction: row;
 }
 .aw img{
     margin-right: 30px;
@@ -91,10 +92,7 @@
     border: 2px solid white;
     
 }
-.aw .vb{
-    margin-top: -50px;
-    margin-left: 150px;
-}
+
 @media screen and (max-width: 768px) {
     .ab{
         margin-top: 260px;
@@ -119,10 +117,6 @@
 .grid{
   display: flex;
   flex-direction: column;
-}
-.aw .vb h1,.aw .vb h3 {
-    font-size:24px;
-    /* color: red */
 }
 
     
@@ -150,19 +144,12 @@
    font-size: 22px;
    font-weight: 500;
     }
-    /* .aw{
-        width: 500px;
-        height: 100%;
-        
-    } */
+   
     .grid{
         gap: 5px;
     }
    .aw .box{
     padding: 12px;
     /* background-color: red; */
-    }
-    .aw .vb{
-        margin-left: 55px;
     }
 }

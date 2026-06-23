@@ -97,10 +97,9 @@ text-align: center;
   
 }
 @media screen and (max-width:768px) {
-  /* .cc{
-    margin-top: 70px
-  } */
- 
+    .mt .margin{
+      margin-top: 800px;
+    } 
   .back{
     background-position: center;
     padding-top: 50%;

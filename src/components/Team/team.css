@@ -2,6 +2,9 @@
     transition: 0.5s;
 
 }
+.tm.padding{
+    padding-top: 40px;
+} 
 .tm .img{
     position: relative;
 }
@@ -50,4 +53,9 @@ font-size: 15px;
 }
 .tm .items:hover .overlay{
     opacity: 1;
+}
+@media screen and (max-width:768px) {
+    .tm.padding{
+        padding-top: 70px;
+    }
 }

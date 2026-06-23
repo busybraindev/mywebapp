@@ -1,5 +1,5 @@
 .cc{
-    padding: 40px ;
+    padding-top: 20px;
 }
 .hb #heading{
     margin-top:60px
@@ -146,9 +146,7 @@ margin-top: 100px;
 }
 
 @media screen and (max-width:768px) {
-   .top{
-    margin-top: 70px;
-   }
+  
     .cc .grid2{
           grid-template-columns: repeat(2, 1fr);
           margin-top: 30px;

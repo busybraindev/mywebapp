@@ -7,10 +7,8 @@ const Ch = () => {
   return (
     <>
       <Back title={"Explore Courses"}></Back>
-      <div className="top">
-        <Cc></Cc>
-        <Oc></Oc>
-      </div>
+      <Cc></Cc>
+      <Oc></Oc>
     </>
   );
 };

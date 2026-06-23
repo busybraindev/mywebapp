@@ -16,7 +16,7 @@ const Hblog = () => {
                     <img src={val.cover} alt="" />
                   </div>
                   <div className="text">
-                    <div className="admin fl">
+                    <div className="admin">
                       <div className="sm">
                         <i className="fa fa-user"></i>
                         <label className="rd" htmlFor="">
