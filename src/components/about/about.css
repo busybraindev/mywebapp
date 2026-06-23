@@ -99,7 +99,7 @@
     .ab .container{
     
     flex-direction: column-reverse;
-    outline: 2px solid red;
+    
 }
 .ab .row{
     width: 100%;
