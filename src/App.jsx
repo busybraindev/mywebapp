@@ -9,7 +9,7 @@ import Team from "./components/Team/Team";
 import Price from "./components/price/Price";
 import Blog from "./components/blog/Blog";
 import Cn from "./components/contact/Cn";
-import Footer from "./components/common/footer/footer";
+import Footer from "./components/common/footer/Footer";
 
 const App = () => {
   return (
