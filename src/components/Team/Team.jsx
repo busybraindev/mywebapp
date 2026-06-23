@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <>
       <Back title={"Team"}></Back>
-      <section className="tm padding">
+      <section className="tm">
         <div className="container grid">
           <Tc></Tc>
         </div>

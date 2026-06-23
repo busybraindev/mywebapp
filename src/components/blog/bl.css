@@ -54,15 +54,9 @@
 }
 
 @media screen and (max-width:768px) {
-  
-.blog.padding{
-  padding-top: 70px;
-}
-
-  .mt{
-    margin-top: 450px;
-  }
-
+      .blog{
+        margin-top: 300px;
+      }
      .blog .grid2{
     display:flex;
     flex-direction:column;
@@ -102,10 +96,6 @@
       }
 }
 @media screen and (max-width:400px) {
-  .back .margin{
-    margin-top: 80%;
-  
-  }
  
  .blog #heading h1{
     font-size: 30px;

@@ -93,12 +93,13 @@
     
 }
 
+
 @media screen and (max-width: 768px) {
-    .ab{
-        margin-top: 260px;
-    }
+  
     .ab .container{
+    
     flex-direction: column-reverse;
+    outline: 2px solid red;
 }
 .ab .row{
     width: 100%;
@@ -122,9 +123,7 @@
     
 }
 @media screen and (max-width: 400px) {
-     .ab{
-        margin-top: 500px;
-    }
+   
     .ab #heading h1{
         font-size: 20px;
     }
@@ -151,5 +150,8 @@
    .aw .box{
     padding: 12px;
     /* background-color: red; */
+    }
+    .ab .right{
+        margin-left: -30px;
     }
 }

@@ -16,10 +16,7 @@
     color: gray;
     margin: 40px 0;
 }
- .price.padding{
-        margin-top: 1000px;
-    }
-
+ 
 .faq p{
     padding: 20px;
 }
@@ -53,9 +50,7 @@
     .hp  #heading h1{
         font-size: 30px;
     }
-    .price .container{
-        margin-top: 500px;
-    }
+    
     .price .items button{
    
     font-size:15px
@@ -63,7 +58,5 @@
     .st #heading h1{
         font-size: 22px;
     }
-    .price.padding{
-        margin-top: 1000px;
-    }
+   
 }

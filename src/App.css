@@ -96,31 +96,29 @@ text-align: center;
   display: flex;
   
 }
+.mt .margin{
+  margin-top: 900px;
+}
 @media screen and (max-width:768px) {
     .mt .margin{
-      margin-top: 800px;
+      margin-top: 700px;
     } 
   .back{
     background-position: center;
     padding-top: 50%;
-    height: 150vh;
+    height: 100vh;
   }
-  /* .margin{
-    margin-top: 80%;
-  } */
-  .tm{
-    margin-top: 450px;
-  }
-  
+
+ 
   
 }
 @media screen and (max-width:400px) {
-  .back{
-    margin-top: 20px;
-  }
-  
   .back h1{
     font-size: 50px;
+ 
+  }
+  .back h2{
+       margin-top: 80px;
   }
 
 }

@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <>
       <Back title={"Blog Posts"}></Back>
-      <div className="mt">
+      <div>
         <section className="blog padding">
           <div className="container grid2">
             <Bc></Bc>
